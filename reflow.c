@@ -37,7 +37,7 @@ reflow_text (char *buf, int new_width)
       }
 
       // break long lines
-      if((index - line_width) > new_width) {
+      if ((index - line_width) > new_width) {
         int reverse_index = index;
 
         // don't break mid-word, unless new_width is smaller than word width
