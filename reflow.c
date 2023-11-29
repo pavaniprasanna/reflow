@@ -26,7 +26,7 @@ reflow_text (char *buf, int new_width)
   // current index
   int index = 0;
 
-// loop through buf
+  // loop through buf
   while (index < strlen(buf)) {
 
       // extend short lines
